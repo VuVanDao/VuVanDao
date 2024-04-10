@@ -3,16 +3,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .p1 {
+        color: blueviolet;
+      }
+    </style>
+    <link rel="stylesheet" href="" />
   </head>
 
   <body>
-    <h1>siuuuu</h1>
+    <h1 style="color: aqua">siuuuu</h1>
     <a href="./">Home</a>
     <a href="./contact.html">Contact</a>
     <hr />
     <!-- hr: tao 1 dong ke ngang
          br: xuong dong -->
-    <p>-hahahaha</p>
+    <p class="p1">-hahahaha</p>
     <b>-hehehehe <br /></b>
     <i>hihihihi <br /></i>
     <u>hohohoho <br /></u>
@@ -74,5 +80,42 @@
         </ol>
       </li>
     </ol>
+    <!-- tr: đại diện 1 hàng
+               td: đại diện 1 ô dữ liệu
+               th:đại diện 1 ô tiêu đề
+               rowspan: chỉ định chiếm bn hàng
+               colspan: chỉ định chiếm bn cột-->
+    <table>
+      <thead>
+        <tr>
+          <th>tên sản phẩm</th>
+          <th>giá sản phẩm</th>
+          <th>số lượng còn lại</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>áo thun nam</td>
+          <td>100.00vnđ</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>quần jean nữ</td>
+          <td>200.000vnđ</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>giày thể thao</td>
+          <td>300.00vnđ</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>remark</th>
+          <th colspan="2">chỉ thống kê sản phẩm trong kho</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
