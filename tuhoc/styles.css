@@ -1,0 +1,27 @@
+/* các thuộc tích cơ bản của css */
+b {
+  color: aqua;
+  /* font style: kiểu chữ */
+  font-style: italic;
+  /* font family: phông chữ */
+  font-family: "Courier New", Courier, monospace;
+  /* chuyển đổi viết hoa,thường */
+  text-transform: lowercase;
+  /* căn giữa */
+  text-align: center;
+  /* cỡ chữ */
+  font-size: small;
+  /* opacity:độ trong suốt */
+  opacity: 50%;
+  /* display: chế độ hiển thị */
+  display: none;
+  /* visibilyti */
+  visibility: hidden;
+  /* prefix:tăng độ tương thích vs nhiều trình duyệt */
+  /* user-select: none; ko cho user boi den dong chu*/
+  /* -webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+    vào trang auto prefix online để làm
+    nếu cần prefix thì sẽ auto prefix */
+}
