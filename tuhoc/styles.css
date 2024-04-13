@@ -97,3 +97,6 @@ VD:  title = "pic"//đc chọn
 VD:  title = "pic"//đc chọn
      title = "pic1"//ko đc chọn
 [title~=pic]: chọn all title có value kết thúc là pic */
+
+/* text-line: khoảng cách giữa các dòng */
+/* text-align: căn content */
