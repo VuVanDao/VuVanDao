@@ -1,0 +1,31 @@
+#mobai:target {
+  color: aqua;
+}
+/* child selector trong lớp giả */
+/* p:fisrt-child: chọn thẻ p là thẻ con đầu tiên
+   p:last-child: chọn thẻ p là thẻ con cuối cùng
+   p:nth-child(n): chọn thẻ con p thứ n từ trên xuống
+   p:nth-last-child(n): chọn thẻ con p thứ n từ dưới lên
+   p:only-child: chọn p là thẻ con duy nhất*/
+.siu,
+li:first-child {
+  color: rgb(117, 20, 215);
+}
+dic:first-child {
+  text-align: end;
+}
+/* p:fisrt-of-type: chọn thẻ p là thẻ xuất đầu tiên trong thẻ cha
+   p:last-of-type: chọn thẻ p là thẻ xuất hiện cuối cùng trong thẻ cha
+   p:nth-of-child(n): chọn thẻ p thứ n trong thẻ cha
+   p:nth-last-of-type(n): chọn thẻ p thứ n trong thẻ cha,từ dưới lên
+   p:only-of-type: chọn p là thẻ xuất hiện duy nhất*/
+/*:not(selector)
+ .siu:not(p):chọn các thẻ có class siu trừ thẻ p
+ .siu:not(:first-of-type):chọn các thẻ class = siu trừ các thẻ xuất hiện 
+ lần đầu  */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  padding: 10px;
+}

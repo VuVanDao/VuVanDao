@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      a {
+        /* text-decoration: none; bỏ dấu gạch chân 
+                                underline; thêm gạch chân
+                                line-through; thêm gạch ngang
+                                overline; gạch trên đầu
+                có thể chỉnh kiểu của dấu gạch,màu sắc,kích thước
+                VD:display: text-decoration: underline dotted blue 5px;                
+             */
+        /* text-indent: 40px; thụt lề 40px */
+        /* text-transform: capitalize; viết hoa chữ cái đầu mỗi từ */
+      }
+      .tshadow {
+        font-size: 70px;
+        color: aqua;
+        text-shadow: 50px 10px 0px red;
+        /* 50px: ngang
+        10px: doc
+        opx: do nhoe */
+      }
+      .over {
+        width: 450px;
+        height: 200px;
+        background-color: yellow;
+        overflow: scroll;
+        white-space: normal;
+      }
+      .over1 {
+        width: 250px;
+        background-color: aqua;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .fa-person-harassing {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="">hihi</a>
+    <p>haha</p>
+    <strong>hoho</strong>
+    <!-- thẻ pre: giữ nguyên định dạng đoạn văn -->
+    <!-- white-space: normal; chả khác j bth
+                      nowarp: ko xuống dòng(kể cả chạm tới lề)
+                      pre: như thẻ pre
+                      pre-line: xoá khoảng trắng dư thừa và giữ nguyên enter thừa
+                     -->
+    <pre> <i class="fa-solid fa-house"></i> hi ho    ha</pre>
+    <a
+      href="https://www.youtube.com/watch?v=rs0MoOO3FSc&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=83"
+      >ấn để học word break</a
+    >
+    <a
+      href="https://www.youtube.com/watch?v=df_bDV4kXrw&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=84"
+      >text-shadow</a
+    >
+    <h1 class="tshadow"><i class="fa-solid fa-person-harassing"></i> hehe</h1>
+    <div class="over">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id culpa
+      nihil ea voluptatum alias deleniti necessitatibus maxime possimus at
+      quaerat atque vel quasi vero fugiat sit architecto, enim magni? Error,
+      dolorum ut unde sunt repellat qui. Tempore, repellendus? Tempora
+      voluptates dolorem inventore. Alias dolores earum, accusamus asperiores
+      reprehenderit totam quisquam. Earum dolor aperiam nisi molestias magni quo
+      sint officiis. Dolore inventore quod vitae distinctio doloremque labore
+      facilis animi officia! Magnam aliquid hic alias veniam explicabo. Quam
+      aperiam placeat ad aut libero, delectus voluptas ipsam quo adipisci labore
+      assumenda reprehenderit. Impedit maxime adipisci exercitationem illo rem
+      necessitatibus blanditiis repellat omnis inventore, ipsa dolores vel hic
+      mollitia nisi asperiores quidem vitae amet. Rem reprehenderit ex, expedita
+      similique ipsa atque quasi necessitatibus. Aut ipsum voluptatem maxime
+      blanditiis odit. Nesciunt enim quae, non deleniti similique doloremque sed
+      quis atque quam ut veritatis reiciendis, recusandae placeat! Consectetur
+      id sit voluptatibus ex animi. Nobis, magni.
+    </div>
+
+    <div class="over1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id culpa
+      nihil ea voluptatum alias deleniti necessitatibus maxime possimus at
+      quaerat atque vel quasi vero fugiat sit architecto, enim magni? Error,
+      dolorum ut unde sunt repellat qui. Tempore, repellendus? Tempora
+      voluptates dolorem inventore. Alias dolores earum, accusamus asperiores
+      reprehenderit totam quisquam. Earum dolor aperiam nisi molestias magni quo
+      sint officiis. Dolore inventore quod vitae distinctio doloremque labore
+      facilis animi officia! Magnam aliquid hic alias veniam explicabo. Quam
+      aperiam placeat ad aut libero, delectus voluptas ipsam quo adipisci labore
+      assumenda reprehenderit. Impedit maxime adipisci exercitationem illo rem
+      necessitatibus blanditiis repellat omnis inventore, ipsa dolores vel hic
+      mollitia nisi asperiores quidem vitae amet. Rem reprehenderit ex, expedita
+      similique ipsa atque quasi necessitatibus. Aut ipsum voluptatem maxime
+      blanditiis odit. Nesciunt enim quae, non deleniti similique doloremque sed
+      quis atque quam ut veritatis reiciendis, recusandae placeat! Consectetur
+      id sit voluptatibus ex animi. Nobis, magni.
+    </div>
+  </body>
+</html>

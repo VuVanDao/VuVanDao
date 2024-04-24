@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        background-image: url(https://i.pinimg.com/564x/63/92/24/639224f094deff2ebf9cd261fba24004.jpg);
+        border: 10px dotted red;
+        padding: 50px;
+        background-clip: content-box;
+      }
+      .text_hightlight {
+        color: transparent; /*làm cho màu chữ trở thành trong suốt,lấy màu chữ từ background */
+        background-color: blueviolet;
+        background-clip: text; /*sử dụng ảnh nền cho text  */
+        -webkit-background-clip: text;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=Q_HPpfdqlQE&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=94"
+      >background-clip</a
+    >
+    <div class="box"></div>
+    <h1>welcome to<strong class="text_hightlight"> Van Dao's home</strong></h1>
+  </body>
+</html>

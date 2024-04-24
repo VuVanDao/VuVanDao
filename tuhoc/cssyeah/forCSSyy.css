@@ -1,0 +1,21 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  /* outline: giống boder nhưng đè lên margin
+  ko lm tăng kích thước
+  ko vẽ đc nhiều chiều như boder
+  
+  outline-offset: khoảng cách của outline vs border*/
+  outline: 5px solid blue;
+  outline-offset: 5px;
+
+  /* box-sizing:
+  +,content-box:(mặc định) kích cỡ contetn 
+                theo with,height ta nhập;
+  +,border-box: kích cỡ của cả phần tử(div) 
+                theo with,height ta nhập  */
+}
+/* cursor: hiển thị icon khi ấn link của thẻ a */
+/* display: block: chiếm hết kích cỡ của thẻ cha
+            inline element: kích thước phụ thuộc vào content(VD: thẻ a,strong,em,button) */

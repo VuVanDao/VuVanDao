@@ -1,0 +1,102 @@
+/* các thuộc tích cơ bản của css */
+b {
+  color: aqua;
+  /* font style: kiểu chữ */
+  font-style: italic;
+  /* font family: phông chữ */
+  font-family: "Courier New", Courier, monospace;
+  /* chuyển đổi viết hoa,thường */
+  text-transform: lowercase;
+  /* căn giữa */
+  text-align: center;
+  /* cỡ chữ */
+  font-size: small;
+  /* opacity:độ trong suốt */
+  opacity: 50%;
+  /* display: chế độ hiển thị */
+  display: none;
+  /* visibilyti */
+  visibility: hidden;
+  /* prefix:tăng độ tương thích vs nhiều trình duyệt */
+  /* user-select: none; ko cho user boi den dong chu*/
+  /* -webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+    vào trang auto prefix online để làm
+    nếu cần prefix thì sẽ auto prefix */
+}
+.lopgia:hover {
+  /* active: sau khi click link xong sẽ lm j đó
+   link: lúc chưa click sẽ ntn */
+  color: aliceblue;
+}
+/* có 1 cách select element ntn: 
+VD: <h3 class="siu">aaa</h3
+h3.siu //chọn all thẻ h3 có class là siu */
+
+/* cách chọn thẻ có 2 class
+VD: <h3 class="siu siu2">aaa</h3>
+ .siu.siu1{} là ok*/
+
+/* div p : chọn all thẻ p nằm trong thẻ div
+
+ or .siu p: chọn all thẻ p trong class siu
+
+ div>p: chọn all thẻ p bị ảnh hưởng trực tiếp của thẻ div\
+ VD: div
+      <p>abc</p>
+        <block>
+           <p>def<p>
+        </block>
+     /div
+      abc: ảnh hưởng trực tiếp
+      def:ảnh hưởng gián tiếp */
+
+/*div p: chọn all thẻ p bị ảnh hưởng  của thẻ div\
+ VD: div
+      <p>abc</p>
+        <block>
+           <p>def<p>
+        </block>
+     /div
+      abc: ảnh hưởng trực tiếp//vẫn đc
+      def:ảnh hưởng gián tiếp//vẫn được */
+
+/* p+h1:chọn thẻ h1 liền kề ngay sau thẻ p */
+
+/* div~a: chọn all thẻ a nằm sau thẻ div */
+
+/* [atribute=value]
+VD:a[target="blank"]:chọn all thẻ a có target = blank
+
+[atribute]{}:chọn các thẻ có atribute*/
+
+/* atribute~=value: 
+VD:  title = "pic"//đc chọn
+     title = "pic1"//ko đc chọn
+[title~=pic]: chọn all title có value là pic */
+
+/* atribute*=value: 
+VD:  title = "pic"//đc chọn
+     title = "pic1"//đc chọn
+[title*=pic]: chọn all title có value có chuỗi có chứa pic */
+
+/* atribute |= value: 
+VD:  title = "pic"//đc chọn
+     title = "pic-1"//đc chọn
+     title = "pic1"//ko đc chọn
+[title|=pic]: chọn all title có value duy nhất là pic */
+
+/* atribute^=value: 
+VD:  title = "pic"//đc chọn
+     title = "pic1"//đc chọn
+     title = "apic"//ko đc chọn
+[title~=pic]: chọn all title có value là pic ở đầu */
+
+/* atribute$=value: 
+VD:  title = "pic"//đc chọn
+     title = "pic1"//ko đc chọn
+[title~=pic]: chọn all title có value kết thúc là pic */
+
+/* text-line: khoảng cách giữa các dòng */
+/* text-align: căn content */
