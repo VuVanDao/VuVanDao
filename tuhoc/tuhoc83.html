@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-line {
+        color: red;
+      }
+      p::first-letter {
+        color: yellow;
+        font-size: 50px;
+      }
+      p::selection {
+        color: blue;
+        background-color: aqua;
+      }
+      span {
+        display: inline-block;
+      }
+      span::first-line {
+        color: red;
+      }
+      li::marker {
+        color: aqua;
+      }
+      .box::before {
+        content: "đây là before";
+        color: aqua;
+      }
+      .box::after {
+        content: "đây là after";
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=4U0Tn77aOC4&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=102"
+      >phần tử giả</a
+    >
+    <!-- 
+        first-line
+    VD:
+        p::first-line: chọn dòng đầu tiên trong thẻ p
+
+        first-letter
+    VD:
+        p::first-letter: chọn chữ đầu tiên trong thẻ p  
+        
+        selection
+    VD:
+        p::selection: chọn các dòng đc bôi đen trong thẻ p   
+        
+       marker
+    VD:
+        li::marker: chọn các thẻ li bị đánh dấu    
+
+       before,after
+    VD:
+    .box:before: thêm phần tử và trc class box
+    .box:after: thêm phần tử và sau class box
+-->
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+        inventore? Natus quae blanditiis nemo harum facilis, fugit cumque
+        dolores soluta culpa obcaecati tempore molestias, illum ab expedita
+        molestiae numquam odit? Impedit maiores perferendis dignissimos, neque
+        eveniet consequuntur natus odit quas, libero ullam perspiciatis, eaque
+        quia suscipit debitis velit doloremque vel. Excepturi mollitia adipisci
+        ad non hic soluta sunt tenetur. Magni. Repudiandae assumenda iste
+        voluptas minus velit ab, nesciunt non deserunt error provident. At
+        maiores sequi a nam praesentium dolores, voluptatibus mollitia! Natus
+        praesentium cumque tenetur, magnam debitis corrupti ad voluptas?
+      </p>
+      <span
+        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+        soluta ex deserunt culpa ipsum amet alias? Debitis nemo numquam eos
+        sunt, quasi ad distinctio ipsam doloribus, natus neque, consectetur
+        labore. Omnis, explicabo ducimus? Doloremque voluptates nesciunt harum!
+        Maiores odio distinctio natus, nam reprehenderit quos nobis ipsum nulla
+        reiciendis enim, fugit minus minima tempora quaerat expedita, delectus
+        voluptate. Aut, sit quo.</span
+      >
+      <ul>
+        <li>một</li>
+        <li>hai</li>
+        <li>ba</li>
+      </ul>
+    </div>
+  </body>
+</html>

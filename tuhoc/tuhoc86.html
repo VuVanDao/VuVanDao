@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --box-height: 200px;
+        --box-color: red;
+      }
+      .box1 {
+        height: var(--box-height);
+        background-color: var(--box-color, blue);
+        /* blue phòng trường hợp box-color ko hiển thị màu */
+        margin-bottom: 10px;
+      }
+      .box2 {
+        height: var(--box-height);
+        background-color: var(--box-color);
+        margin-bottom: 10px;
+      }
+      .box3 {
+        height: var(--box-height);
+        background-color: var(--box-color);
+        margin-bottom: 10px;
+      }
+      .detail {
+        --detail-font-size: 40px;
+        font-size: var(--detail-font-size);
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=YqrZK7xW46k&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=105"
+      >CSS variable</a
+    >
+    <div class="content">
+      <div class="box1">box 1</div>
+      <div class="box2">box 2</div>
+      <div class="box3">box 3</div>
+      <p class="detail">welcome <span>hahahaha</span></p>
+    </div>
+  </body>
+</html>

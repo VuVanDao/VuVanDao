@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 150px;
+        display: flex;
+        background-color: aqua;
+      }
+      .box {
+        background-color: beige;
+        border: 2px darkblue dotted;
+        flex-basis: 30%;
+      }
+      .box1 {
+        align-self: flex-end;
+        flex-shrink: 0;
+      }
+      .container1 {
+        height: 150px;
+        display: flex;
+        background-color: rgb(26, 211, 76);
+      }
+      .boxx {
+        background-color: rgb(201, 22, 22);
+        border: 2px rgb(160, 202, 21) dotted;
+        color: aliceblue;
+      }
+      .boxx1,
+      .boxx3 {
+        /* flex-shrink: 100; */
+        order: 2;
+        flex-grow: 5;
+      }
+      .boxx2 {
+        order: 1;
+        flex-grow: calc(10);
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=v-fr7p6rhYg&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=119"
+      >CSS flex-item</a
+    >
+    <!-- nhớ xem lại flex-shirk và flex-basis -->
+    <div class="container">
+      <div class="box box1">block 1</div>
+      <div class="box box2">block 2</div>
+      <div class="box box3">block 3</div>
+      <div class="box box4">block 4</div>
+      <div class="box box5">block 5</div>
+      <div class="box box6">block 6</div>
+    </div>
+    <div class="container1">
+      <div class="boxx boxx1">khối 1</div>
+      <div class="boxx boxx2">khối 2</div>
+      <div class="boxx boxx3">khối 3</div>
+    </div>
+  </body>
+</html>

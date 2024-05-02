@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        color: aliceblue;
+        /* căn giữa */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        position: relative;
+        background-color: aqua;
+        width: 400px;
+        margin: 50px;
+      }
+      .box1 {
+        background-color: red;
+        /* position: absolute; */
+      }
+      .box2 {
+        background-color: blue;
+        position: relative;
+        right: 50px;
+      }
+      .box3 {
+        background-color: green;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      h1 {
+        background-color: violet;
+      }
+      .mess-bottom {
+        font-size: 50px;
+        color: #0082ff;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+
+      .boxx {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aquamarine;
+        position: absolute;
+      }
+      .content1 {
+        /* position: relative; */
+        background-color: aqua;
+        width: 700px;
+        margin: 50px;
+      }
+      .boxx1 {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        z-index: 101;
+      }
+      .boxx2 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        z-index: 102;
+      }
+      .boxx3 {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        z-index: 103;
+      }
+      .content3 {
+        height: 100px;
+        background-color: blue;
+        overflow: auto;
+        text-overflow: clip;
+      }
+      .h1sticky {
+        position: sticky;
+        background-color: aqua;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=_PnzWispDD0&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=106"
+      >CSS position</a
+    >
+    <!-- static
+    relative
+    absolute
+    fixed
+    sticky -->
+    <!-- .test>ul>li*10>h5+ul>li*5 -->
+
+    <div class="content">
+      <div class="box box1">khối 1</div>
+      <div class="box box2">khối 2</div>
+      <div class="box box3">khối 3</div>
+    </div>
+    <div class="content3">
+      <h1 class="h1sticky">nội dung khoá học</h1>
+      <ul>
+        <li>phần 1</li>
+        <li>phần 2</li>
+        <li>phần 3</li>
+        <li>phần 4</li>
+        <li>phần 5</li>
+        <li>phần 6</li>
+        <li>phần 7</li>
+        <li>phần 8</li>
+        <li>phần 9</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+        <li>phần 10</li>
+      </ul>
+    </div>
+    <h1>Van Dao</h1>
+    <div class="mess-bottom">
+      <i class="fa-brands fa-facebook-messenger"></i>
+    </div>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod mollitia
+      ratione? Labore minima rem ea enim nisi esse adipisci modi incidunt ab
+      sint, repudiandae commodi delectus, tempore laboriosam libero! Perferendis
+      saepe nobis voluptas! Obcaecati dolores et ut voluptatem atque illo ipsum
+      veniam minima, facere voluptate nobis vitae sed, eum ab corporis quam esse
+      sint pariatur ipsa. Libero, soluta quos? Nemo quidem rem ducimus rerum
+      consequatur quia beatae, quasi iusto ad id ut recusandae libero iure
+      reprehenderit expedita cupiditate in error. Illo totam, laudantium quasi
+      autem labore tempore doloremque explicabo. Magni rerum, expedita
+      recusandae perferendis illo consequatur, voluptatibus, ipsa dolor
+      asperiores debitis ut inventore cupiditate quod ea sequi voluptas
+      accusantium fugiat amet fuga? Suscipit praesentium nulla eos eveniet
+      sapiente nihil? Ab reprehenderit in molestias fuga repudiandae facilis
+      repellendus beatae? Reprehenderit ipsam molestiae dignissimos laudantium,
+      amet in aliquam ea! Cupiditate animi rerum impedit doloremque totam natus
+      veritatis. Voluptatum provident alias autem?
+    </h1>
+    <div class="content1">
+      <div class="boxx boxx1">khối 1</div>
+      <div class="boxx boxx2">khối 2</div>
+      <div class="boxx boxx3">khối 3</div>
+    </div>
+  </body>
+</html>
