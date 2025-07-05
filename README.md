@@ -9,7 +9,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/%c4%91%e1%ba%a1o-v%c5%a9-v%c4%83n-47b98b34a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/%c4%91%e1%ba%a1o-v%c5%a9-v%c4%83n-47b98b34a/" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/%C4%91%E1%BA%A1o-v%C5%A9-v%C4%83n-47b98b34a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/%c4%91%e1%ba%a1o-v%c5%a9-v%c4%83n-47b98b34a/" height="30" width="40" /></a>
 <a href="https://www.facebook.com/vu.van.ao.208585" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="vũ văn đạo" height="30" width="40" /></a>
 <a href="https://instagram.com/https://www.instagram.com/vuvan3277/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/vuvan3277/" height="30" width="40" /></a>
 </p>
