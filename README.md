@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Vu Van Dao</h1>
-<h3 align="center">A passionate web developer from Viet Nam</h3>
+<h3 align="center">A passionate developer from Viet Nam</h3>
 
-- 🔭 I’m currently working on [WebTMDT-BE](https://github.com/VuVanDao/WebTMDT-BE)
+- 🔭 I’m currently working on [Trello-clone-BE](https://github.com/VuVanDao/BETrelloClone)
 
 - 🌱 I’m currently learning **.Net**
 
