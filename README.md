@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vu Van Dao</h1>
-<h3 align="center">A noob developer from Viet Nam</h3>
+<h3 align="center">A random developer from Viet Nam</h3>
 
 - 🌱 I’m currently learning **.Net**
 
