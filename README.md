@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vu Van Dao</h1>
-<h3 align="center">A passionate developer from Viet Nam</h3>
-
-- 🔭 I’m currently working on [Trello-clone-BE](https://github.com/VuVanDao/BETrelloClone)
+<h3 align="center">A noob developer from Viet Nam</h3>
 
 - 🌱 I’m currently learning **.Net**
 
