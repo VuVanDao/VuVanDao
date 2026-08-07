@@ -16,17 +16,15 @@
 
 <img hight="400" width="500" alt="GIF" align="right" src="https://i.pinimg.com/originals/dc/1b/d6/dc1bd6c2a01c76f05c0074ee0216249b.gif">
 
-### - Learning :
+### - Current Learning :
 - ✨ C# & ASP.NET Core
+- 🌱 Docker
 
 ### - Hobbies : 
 - ✨ Plays Wuthering Waves, ZZZ
 - ✨ Watching Anime
-
-### - Current :
-
-- 🌱 I’m currently learning **ASP.NET CORE**
-
+  
+### - Contact
 - 📫 How to reach me **dao28901@gmail.com**
 
 
